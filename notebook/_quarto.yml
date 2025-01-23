@@ -1,0 +1,23 @@
+project:
+  type: book
+  # execute-dir: "../"
+
+book:
+  title: "Notebook"
+  author: "Norah Jones"
+  date: "1/23/2025"
+  chapters:
+    - index.qmd
+    - 2021-04-12-models.qmd
+    - 2021-04-11-data-exploration.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+
